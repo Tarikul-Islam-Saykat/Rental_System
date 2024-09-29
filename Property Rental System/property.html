@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="css/TanDash.css">
+
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+   
+      <span class="logo_name">Tenant Dashboard</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+        
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Home</span>
+        </a>
+       
+      <li>
+        <a href="pro.html">
+          <i class='bx bx-user'></i>
+          <span class="link_name">Profie</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class='bx bxs-user-detail' ></i>
+          <span class="link_name">Property</span>
+        </a>
+      </li>
+  
+      <li>
+        <a href="https://www.facebook.com/messages/t/100013823857275/">
+          <i class='bx bx-message-rounded-dots'></i>
+          <span class="link_name">Messege</span>
+        </a>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Tarikul Saykat</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  
+
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Sidebar</span>
+    </div>
+   
+    <div class="proper">
+      <p>Search House in your nearby location</p>
+    </div>
+<div class="box">
+    <input type="checkbox" id="check">
+    <div class="search-box">
+      <input type="text" placeholder="Search here by property name...">
+      <label for="check" class="icon">
+        <i class="fas fa-search"></i>
+      </label>
+    </div>
+  </div>
+    <div class="property">
+      <div>
+          <p>Property2:</p>
+      </div>
+      <div>
+          <img src="images/house2.jpg" alt="">
+      </div>
+      <div>
+         <p>Discription: BHk Appartment in in Kaligeon and newly modified!</p> 
+         <p>Rent: 35000k</p> 
+      </div>
+      <br>
+      <div class="msg">
+
+        <button style="width: 45%;">
+            <a href="#" style="text-decoration: none; color: rgb(0, 0, 0);">Message</a>
+
+        </button>
+        
+        <button style="width: 45%;">
+            
+          <a href="#" style="text-decoration: none; color: rgb(0, 0, 0);">Feedback</a>
+        
+        </button>
+      </div>
+      </div>
+
+      
+
+  </section>
+  
+  <script>
+    
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+</body>
+</html>

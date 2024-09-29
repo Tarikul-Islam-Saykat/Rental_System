@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row0{
+    background-color: aliceblue;
+    padding: 20px;
+}
+#topbar{
+    margin: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fl_left ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fl_left ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.fl_right ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fl_right ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.fl_right ul li a {
+    text-decoration: none;
+
+}
+.fl_right:hover{
+    transform: scale(1.12);
+    transition: transform .4s;
+}
+.row1{
+    margin: 0 40px 0 40px;
+}
+
+#header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.h-right ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-right ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.bgded{
+    background-image: url("../images/hell1.jpg");
+    background-size: 94%;
+    background-repeat:no-repeat;
+    width: 100%;
+    margin: 0 40px 0 40px;
+    padding-left: 5px;
+
+}
+
+.flexslider{
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+.btn{
+    background-color: #888;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 5px 0px;
+    transition: transform .4s;
+}
+
+
+img{
+    width: 300px;
+    margin: 0 40px 0 40px;
+}
+
+.row2{
+    margin: 0 40px 0 40px;
+    background-color: lightgray;
+    padding: 30px;
+
+}
+.image-set ul {
+    display: flex;
+    justify-content: space-between;
+}
+.image-set ul li{
+    list-style: none;
+}
+
+.image-set ul li a {
+    text-decoration: none;
+}
+
+.sectiontitle{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+
+}
+
+.nospace{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.nospace li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.clear{
+    margin-top: 100px;
+}

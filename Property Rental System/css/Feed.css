@@ -1,0 +1,30 @@
+.property{
+	position: relative;
+	align-items: center;
+	padding-top: 180px;
+	width: 30%;
+	height: 15%;
+	z-index: 15;
+	top: 30%;
+	left: 45%;
+	margin: -100px 0 0 -150px;
+	font-size: 15px;
+	margin-bottom: 50px;
+	
+
+}
+.property1{
+	position: relative;
+	align-items: center;
+	padding-top: 100px;
+	width: 30%;
+	height: 15%;
+	z-index: 15;
+	top: 30%;
+	left: 45%;
+	margin: -100px 0 0 -150px;
+	font-size: 15px;
+	margin-bottom: 200px;
+	
+
+}

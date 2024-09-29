@@ -1,0 +1,23 @@
+.property{
+	position: relative;
+	align-items: center;
+	padding-top: 180px;
+	width: 30%;
+	height: 15%;
+	z-index: 15;
+	top: 30%;
+	left: 45%;
+	margin: -100px 0 0 -150px;
+	font-size: 15px;
+	margin-bottom: 200px;
+
+	
+
+}
+.hlw{
+   padding-inline: 15px 10px;
+
+}
+.btn{
+    align-items: center;
+}
